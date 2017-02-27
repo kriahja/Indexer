@@ -53,6 +53,7 @@
     <Compile Include="DAL\IndexContext.cs" />
     <Compile Include="Indexing.cs" />
     <Compile Include="Models\Paths.cs" />
+    <Compile Include="Models\test.cs" />
     <Compile Include="Models\Words.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
