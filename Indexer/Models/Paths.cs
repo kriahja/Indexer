@@ -8,7 +8,9 @@ namespace Indexer.model
 {
     public class Paths
     {
-        public int id;
-        private String path;
+        public int id { get; }
+        private String path { get; set; }
+
+        public ICollection<object> Words { get; internal set; }
     }
 }
